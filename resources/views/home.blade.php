@@ -10,10 +10,10 @@
                         <div class="stat-widget-one">
                             <div class="stat-content">
                                 <div class="stat-text">Investments / Deposits</div>
-                                <div class="stat-digit gradient-3-text"><i class="fa fa-usd"></i>$0</div>
+                                <div class="stat-digit gradient-3-text"><i class="fa fa-usd"></i>0</div>
                             </div>
                             <div class="progress mb-3">
-                                <div class="progress-bar gradient-3" style="width: 50%;" role="progressbar"><span class="sr-only">100% Complete</span>
+                                <div class="progress-bar gradient-3" style="width: 100%;" role="progressbar"><span class="sr-only">100% Complete</span>
                                 </div>
                             </div>
                         </div>
@@ -25,10 +25,10 @@
                         <div class="stat-widget-one">
                             <div class="stat-content">
                                 <div class="stat-text">Withdrawals</div>
-                                <div class="stat-digit gradient-4-text"><i class="fa fa-usd"></i>$0</div>
+                                <div class="stat-digit gradient-4-text"><i class="fa fa-usd"></i>0</div>
                             </div>
                             <div class="progress mb-3">
-                                <div class="progress-bar gradient-4" style="width: 40%;" role="progressbar"><span class="sr-only">100% Complete</span>
+                                <div class="progress-bar gradient-4" style="width: 100%;" role="progressbar"><span class="sr-only">100% Complete</span>
                                 </div>
                             </div>
                         </div>
@@ -40,17 +40,30 @@
                         <div class="stat-widget-one">
                             <div class="stat-content">
                                 <div class="stat-text">Referral Bonus</div>
-                                <div class="stat-digit gradient-4-text"><i class="fa fa-usd"></i> $0</div>
+                                <div class="stat-digit gradient-4-text"><i class="fa fa-usd"></i> 0</div>
                             </div>
                             <div class="progress mb-3">
-                                <div class="progress-bar gradient-4" style="width: 15%;" role="progressbar"><span class="sr-only">100% Complete</span>
+                                <div class="progress-bar gradient-4" style="width: 100%;" role="progressbar"><span class="sr-only">100% Complete</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div> 
-        </div>
+            <div class="row">
+                <div class="card col-sm-12">
+                    <div class="card-body">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend"><span class="input-group-text">Referral Link</span>
+                            </div>
+                            <input type="text" id="reflink" value="{{Request::root().'/register/'.Auth::user()->username}}"  class="form-control">
+                            <div class="input-group-append"><span class="input-group-text" onclick="copyLink()"><a href="">Copy</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
     </div>
 
 @endsection

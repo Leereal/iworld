@@ -132,12 +132,17 @@
                         </ul>
                     </li>
                     <li>
+                        <a href="/referrals" aria-expanded="false">
+                            <i class="icon-people menu-icon"></i><span class="nav-text">Referrals</span>
+                        </a>
+                    </li>
+                    <li>
                         <a href="/comingsoon" aria-expanded="false">
                             <i class="icon-diamond menu-icon"></i><span class="nav-text">Bonus</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/comingsoon" aria-expanded="false">
+                        <a href="/profile" aria-expanded="false">
                             <i class="icon-user menu-icon"></i><span class="nav-text">Profile</span>
                         </a>
                     </li>
