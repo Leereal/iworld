@@ -44,7 +44,7 @@
         ***********************************-->
         <div class="nav-header">
             <div class="brand-logo">
-                <a href="index.html">
+                <a href="/home">
                     <b class="logo-abbr"><img src="{{ asset('app_assets/images/logo.png')}}" alt=""> </b>
                     <span class="logo-compact"><img src="{{ asset('app_assets/images/logo-compact.png')}}" alt=""></span>
                     <span class="brand-title">
@@ -89,6 +89,7 @@
                                             <i class="icon-key"></i>
                                             <span class="text-danger">Logout</span></a>
                                         </li>
+                                        </form>
                                     </ul>
                                 </div>
                             </div>

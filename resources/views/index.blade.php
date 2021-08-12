@@ -59,7 +59,6 @@
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="/login"><button class="btn btn-outline-success btn-sm">Login</button></a></li>
           <li><a href="https://t.me/pipsotrade"><button class="btn btn-outline-primary btn-sm"><i class="icofont-telegram"></i> Join Telegram</button></a></li>
@@ -82,6 +81,23 @@
   </section><!-- End Hero -->
 
   <main id="main">
+    
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Breaking News</h2>
+          <h3>GET <span>23</span></h3>
+          <p>Introducing GET 23 the only safest way of making money online. Get your 23 percent profit every week and always. You contribute and then we trade for you so that you start to earn 23% every week forever.</p>
+          <br>
+          <p>Get 23 is being introduced only to save people who can not find time to make money online. Get busy with your work and we get busy making you rich.</p>
+          <br>
+          <strong>*INTERESTED MEMBERS ONLY NOT FOR EVERYONE</strong>
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
 
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services">
@@ -208,80 +224,6 @@
       </div>
     </section><!-- End Counts Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="row">
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Clients Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Services</h2>
-          <h3>Check our <span>Services</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
       <div class="container" data-aos="zoom-in">
@@ -291,10 +233,10 @@
           <div class="testimonial-item">
             <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
             <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Founder</h4>
+            <h4>Ceo</h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              This team provides the best services and customer support of the top
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
@@ -302,10 +244,10 @@
           <div class="testimonial-item">
             <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
             <h3>Sara Wilsson</h3>
-            <h4>Designer</h4>
+            <h4>Investor</h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              I invested with them and I was not disappointed at all. So far so good.
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
@@ -316,7 +258,7 @@
             <h4>Store Owner</h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+              They boosted my capital now I am operating big in my area because of them
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
@@ -327,28 +269,16 @@
             <h4>Freelancer</h4>
             <p>
               <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              I lost a lot of money trying other programmes but this one changed my life. I can now work from home without any challenges.
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
-
-          <div class="testimonial-item">
-            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-          </div>
-
         </div>
 
       </div>
     </section><!-- End Testimonials Section -->
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
+    <!-- <section id="faq" class="faq section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -416,7 +346,7 @@
         </ul>
 
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section>End Frequently Asked Questions Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -425,7 +355,7 @@
         <div class="section-title">
           <h2>Contact</h2>
           <h3><span>Contact Us</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <p>Our support is always online to help you</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -433,7 +363,7 @@
             <div class="info-box mb-4">
               <i class="bx bx-map"></i>
               <h3>Our Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <p>4670 Monterey Cir, Las Vegas, NV 89169, USA</p>
             </div>
           </div>
 
@@ -441,7 +371,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
-              <p>contact@example.com</p>
+              <p>support@pipsotrade.com</p>
             </div>
           </div>
 
@@ -449,7 +379,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p>+1 5589 55488 55</p>
+              <p>+1 602 804 8622</p>
             </div>
           </div>
 
@@ -458,11 +388,11 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
 
           <div class="col-lg-6 ">
-            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.522621567497!2d-115.16196998430634!3d36.10512338009759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c5b4af3c4c49%3A0x720119bb2dff5321!2s4670%20Monterey%20Cir%2C%20Las%20Vegas%2C%20NV%2089169%2C%20USA!5e0!3m2!1sen!2sza!4v1628752415740!5m2!1sen!2sza" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -499,67 +429,33 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="footer-top">
       <div class="container">
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>BizLand<span>.</span></h3>
+            <h3>Pipsotrade<span>.</span></h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+            4670 Monterey Cir, Las Vegas, NV 89169<br>
+            Las Vegas, NV 89169<br><br>
+              <strong>Phone:</strong> +1 602 804 8622<br>
+              <strong>Email:</strong> support@pipsotrade.com<br>
             </p>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-4 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-4 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <p>Join our channels and chat with other members</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https;//t.me/pipsotrade" class="telegram"><i class="bx bxl-telegram"></i></a>
             </div>
           </div>
 
@@ -569,14 +465,10 @@
 
     <div class="container py-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>BizLand</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Pipsotrade</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bizland-bootstrap-business-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://pipsotrade.com/">Pipsotrade</a>
       </div>
     </div>
   </footer><!-- End Footer -->
