@@ -34,7 +34,7 @@
   <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
-        <i class="icofont-envelope"></i> <a href="mailto:pipsotrade@gmail.com">pipsotrade@gmail.com</a>
+        <i class="icofont-envelope"></i> <a href="mailto:support@pipsotrade.com">support@pipsotrade.com</a>
         <i class="icofont-phone"></i> +1 602 804 8622
       </div>
       <div class="social-links">

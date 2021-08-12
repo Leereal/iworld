@@ -27,7 +27,7 @@ Route::get('/profile', function () {
 })->middleware(['auth'])->name('profile');
 
 
-Route::get('/register/{ref?}', [App\Http\Controllers\RegisterController::class, 'referral']);
+Route::get('/register/{ref?}', [App\Http\Controllers\Auth\RegisterController::class, 'referral']);
 Route::get('/referrals', [App\Http\Controllers\UserController::class, 'referrals'])->middleware(['auth'])->name('referrals');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
