@@ -455,7 +455,7 @@
             <h4>Our Social Networks</h4>
             <p>Join our channels and chat with other members</p>
             <div class="social-links mt-3">
-              <a href="https;//t.me/pipsotrade" class="telegram"><i class="bx bxl-telegram"></i></a>
+              <a href="https://t.me/pipsotrade" class="telegram"><i class="bx bxl-telegram"></i></a>
             </div>
           </div>
 
