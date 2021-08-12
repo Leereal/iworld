@@ -57,7 +57,7 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="/">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="/login"><button class="btn btn-outline-success btn-sm">Login</button></a></li>
@@ -89,7 +89,7 @@
         <div class="section-title">
           <h2>Breaking News</h2>
           <h3>GET <span>23</span></h3>
-          <p>Introducing GET 23 the only safest way of making money online. Get your 23 percent profit every week and always. You contribute and then we trade for you so that you start to earn 23% every week forever.</p>
+          <p>Introducing GET 23 the only safest way of making money online. Get your 23 percent profit every week, consistently.  You contribute, and we trade for you so that you can start to earn 23% every week, forever.</p>
           <br>
           <p>Get 23 is being introduced only to save people who can not find time to make money online. Get busy with your work and we get busy making you rich.</p>
           <br>
