@@ -199,6 +199,9 @@
     <!--**********************************
         Scripts
     ***********************************-->
+    <!--Add the following script at the bottom of the web page (before </body></html>)-->
+<script type="text/javascript">function add_chatinline(){var hccid=49288740;var nt=document.createElement("script");nt.async=true;nt.src="https://www.mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+add_chatinline();</script>
     <!-- Scripts -->
     <script src="{{ asset('app_assets/plugins/common/common.min.js') }}" defer></script>
     <script src="{{ asset('app_assets/js/custom.min.js') }}" defer></script>
