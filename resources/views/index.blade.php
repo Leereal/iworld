@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Pipsotrade - Investing Made Easy</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description" content="Introducing GET 23 the only safest way of making money online. Get your 23 percent profit every week, consistently.  You contribute, and we trade for you so that you can start to earn 23% every week, forever.">
+  <meta name="keywords" content="Investment, Forex, Volatility Indices, Deriv, Make Money Online, Earn, Forex Trading, Pipsotrade, Investing, Business, Crypto Currency, Bitcoin">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">

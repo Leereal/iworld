@@ -63,7 +63,23 @@
                     </div>
                 </div>
             </div>
-        </div>        
+        </div>  
+        <script>
+        function copyLink() {
+        /* Get the text field */
+        var copyText = document.querySelector("#reflink");
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
+
+        /* Alert the copied text */
+        alert("Copied the Link: " + copyText.value);
+        };
+    </script>      
     </div>
 
 @endsection
