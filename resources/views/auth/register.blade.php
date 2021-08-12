@@ -9,7 +9,7 @@
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
-                    <input type="hidden" name="ref" value="{{$ref}}">
+                    <input type="hidden" name="ref" value="{{$ref ?? ''}}">
                         @csrf
 
                         <div class="form-group row">
