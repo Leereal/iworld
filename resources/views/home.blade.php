@@ -5,7 +5,7 @@
     <div class="card">
         <div class="card-body">
             <div class="row">
-                <div class="col-4">
+                <div class="col-xs-12 col-sm-12 col-lg-4">
                     <div class="card">
                         <div class="stat-widget-one">
                             <div class="stat-content">
@@ -20,7 +20,7 @@
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-xs-12 col-sm-12 col-lg-4">
                     <div class="card">
                         <div class="stat-widget-one">
                             <div class="stat-content">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-lg-4">
                     <div class="card">
                         <div class="stat-widget-one">
                             <div class="stat-content">
