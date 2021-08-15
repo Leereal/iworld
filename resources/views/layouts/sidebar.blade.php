@@ -114,6 +114,11 @@
                             <i class="icon-speedometer menu-icon"></i><span class="nav-text">Dashboard</span>
                         </a>
                     </li>
+                    <li>
+                        <a href="/deposit" aria-expanded="false">
+                            <i class="icon-basket menu-icon"></i><span class="nav-text">Deposit</span>
+                        </a>
+                    </li>
                     <li class="mega-menu mega-menu-sm">
                         <a class="has-arrow" href="javascript:void()" aria-expanded="false">
                             <i class="icon-wallet menu-icon"></i><span class="nav-text">Investment</span>
