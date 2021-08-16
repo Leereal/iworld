@@ -2,6 +2,7 @@
 
 @section('content')
 <div class="row">
+    @if($deposits)
     <div class="col-12">
         <div class="card">
             <div class="card-body">
@@ -17,6 +18,7 @@
             </div>
         </div>
     </div>  
+    @endif
     <div class="col-sm-12">
         <div class="card">
             <div class="card-body">
