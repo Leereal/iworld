@@ -69,11 +69,11 @@ class User extends Authenticatable
     {
         return $this->hasMany(User::class, 'referrer_id', 'id');
     }  
-    // //Bids Relationship
-    // public function bids()
-    // {
-    //     return $this->hasMany('App\Models\Bids');
-    // }
+    //Deposit Relationship
+    public function deposits()
+    {
+        return $this->hasMany('App\Models\Deposit');
+    }
 
     // //Bank Detail Relationship
     // public function bank_details()

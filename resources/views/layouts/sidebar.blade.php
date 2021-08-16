@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{ asset('app_assets/plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css')}}">
     <!-- Custom Stylesheet -->  
     <link href="{{ asset('app_assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('app_assets/plugins/jquery-steps/css/jquery.steps.css')}}" rel="stylesheet">
 </head>
 
 <body>
@@ -115,7 +116,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/deposit" aria-expanded="false">
+                        <a href="/select-deposit" aria-expanded="false">
                             <i class="icon-basket menu-icon"></i><span class="nav-text">Deposit</span>
                         </a>
                     </li>
@@ -208,6 +209,7 @@
 <script type="text/javascript">function add_chatinline(){var hccid=49288740;var nt=document.createElement("script");nt.async=true;nt.src="https://www.mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
 add_chatinline();</script>
     <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('app_assets/plugins/common/common.min.js') }}" defer></script>
     <script src="{{ asset('app_assets/js/custom.min.js') }}" defer></script>
     <script src="{{ asset('app_assets/js/settings.js') }}" defer></script>
@@ -232,6 +234,10 @@ add_chatinline();</script>
     <script src="{{ asset('app_assets/plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js') }}" defer></script>
 
     <script src="{{ asset('app_assets/js/dashboard/dashboard-1.js') }}" defer></script>
+
+    <script src="{{ asset('app_assets/plugins/jquery-steps/build/jquery.steps.min.js') }}"></script>
+    <script src="{{ asset('app_assets/plugins/jquery-validation/jquery.validate.min.js') }}"></script>
+    <script src="{{ asset('app_assets/js/plugins-init/jquery-steps-init.js') }}"></script>
 
 </body>
 

@@ -45,9 +45,7 @@ class InvestmentController extends Controller
      */
     public function create()
     {
-        $plans = $plans = Plan::all();
-        $banks = Bank::all();
-        return view('invest',['plans'=>$plans, 'banks'=>$banks]);
+        //
     }
 
     /**

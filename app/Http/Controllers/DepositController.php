@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Models\Deposit;
 use App\Models\Bonus;
 use App\Models\Investment;
+use App\Models\Bank;
 use App\Models\Plan;
 use App\Models\User;
 use Carbon\Carbon;
@@ -26,6 +27,14 @@ class DepositController extends Controller
         return view('deposits',['deposits'=>$deposits]);
     }
 
+    public function index()
+    {
+        // //Get Investments
+        // $deposits = Auth::user()->investments()->where('status','<>',0)->get();
+
+        // return view('deposits',['deposits'=>$deposits]);  
+    }
+
     
     /**
      * Show the form for creating a new resource.
@@ -34,7 +43,17 @@ class DepositController extends Controller
      */
     public function create()
     {
-        //
+
+        $banks = Bank::all();
+        $deposits = Auth::user()->deposits()->where('status',2)->get();
+        return view('select-deposit',['banks'=>$banks,'deposits'=>$deposits]);
+    }
+
+    public function deposit_view(Request $request)
+    {
+        $plans = Plan::all();
+        $bank = Bank::findOrFail($request->bank);
+        return view('deposit',['plans'=>$plans, 'bank'=>$bank]);
     }
 
     /**
@@ -45,6 +64,7 @@ class DepositController extends Controller
      */
     public function store(Request $request)
     {  
+
         $request->validate([         
             'pop'               => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'amount'            => 'required|max:10|between:0,99.99|gt:0',
