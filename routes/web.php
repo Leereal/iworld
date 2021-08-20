@@ -63,6 +63,7 @@ Route::group(['middleware' => 'auth'], function() {
 Route::get('/select-deposit', [DepositController::class, 'create'])->middleware(['auth']);
 Route::get('/deposit-view', [DepositController::class, 'deposit_view'])->middleware(['auth']);
 Route::post('/deposit', [DepositController::class, 'store'])->middleware(['auth']);
+Route::get('/investment-history', [InvestmentController::class, 'history'])->middleware(['auth']);
 
 Route::get('/deposits', [DepositController::class, 'all'])->middleware(['auth']);
 Route::get('/withdrawals', [WithdrawalController::class, 'all'])->middleware(['auth']);
@@ -80,4 +81,7 @@ Route::get('/user-bonus/{user}', [BonusController::class, 'userbonus'])->middlew
 Route::post('/reinvest-user', [InvestmentController::class, 'user_reinvestment'])->middleware(['auth']);
 Route::post('/reinvest-all', [InvestmentController::class, 'bulk_reinvestment'])->middleware(['auth']);
 Route::post('/mature-all', [InvestmentController::class, 'bulk_mature'])->middleware(['auth']);
+Route::get('/settings', function () {
+    return view('settings');
+})->middleware(['auth'])->name('settings');
 

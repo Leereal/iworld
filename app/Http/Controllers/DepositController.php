@@ -137,7 +137,7 @@ class DepositController extends Controller
                     //Add bonus
                     $referral_bonus                      = new Bonus();
                     $referral_bonus->user_id             = $receiver->referrer->id;
-                    $referral_bonus->amount              = $deposit->amount * 0.1;
+                    $referral_bonus->amount              = $deposit->amount * 0.07;
                     $investment->bonus()->save($referral_bonus);
                 }
                 $approve_payment= Deposit::findOrFail($request->deposit)->update(['status' => 0]);
@@ -168,7 +168,7 @@ class DepositController extends Controller
                     //Add bonus
                     $referral_bonus                      = new Bonus();
                     $referral_bonus->user_id             = $receiver->referrer->id;
-                    $referral_bonus->amount              = $deposit->amount * 0.1;
+                    $referral_bonus->amount              = $deposit->amount * 0.07;
                     $investment->bonus()->save($referral_bonus);
                 }
                 Deposit::findOrFail($request->deposit)->update(['status' => 0]);

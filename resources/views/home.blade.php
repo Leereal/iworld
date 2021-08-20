@@ -10,7 +10,7 @@
                         <div class="stat-widget-one">
                             <div class="stat-content">
                                 <div class="stat-text">Investments / Deposits</div>
-                                <div class="stat-digit gradient-3-text"><i class="fa fa-usd"></i>0</div>
+                                <div class="stat-digit gradient-3-text"><i class="fa fa-usd"></i>{{$balance}}</div>
                             </div>
                             <div class="progress mb-3">
                                 <div class="progress-bar gradient-3" style="width: 100%;" role="progressbar"><span class="sr-only">100% Complete</span>
@@ -24,8 +24,8 @@
                     <div class="card">
                         <div class="stat-widget-one">
                             <div class="stat-content">
-                                <div class="stat-text">Withdrawals</div>
-                                <div class="stat-digit gradient-4-text"><i class="fa fa-usd"></i>0</div>
+                                <div class="stat-text">Referrals</div>
+                                <div class="stat-digit gradient-4-text">{{$referrals}}</div>
                             </div>
                             <div class="progress mb-3">
                                 <div class="progress-bar gradient-4" style="width: 100%;" role="progressbar"><span class="sr-only">100% Complete</span>
@@ -40,7 +40,7 @@
                         <div class="stat-widget-one">
                             <div class="stat-content">
                                 <div class="stat-text">Referral Bonus</div>
-                                <div class="stat-digit gradient-4-text"><i class="fa fa-usd"></i> 0</div>
+                                <div class="stat-digit gradient-4-text"><i class="fa fa-usd"></i> {{$bonus}}</div>
                             </div>
                             <div class="progress mb-3">
                                 <div class="progress-bar gradient-4" style="width: 100%;" role="progressbar"><span class="sr-only">100% Complete</span>

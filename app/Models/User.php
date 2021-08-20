@@ -43,17 +43,17 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-    // //Investment Relationship
-    // public function investments()
-    // {
-    //     return $this->hasMany('App\Models\Investment');
-    // }
+    //Investment Relationship
+    public function investments()
+    {
+        return $this->hasMany('App\Models\Investment');
+    }
 
-    // //Bonus Relationship
-    // public function bonuses()
-    // {
-    //     return $this->hasMany('App\Models\Bonus');
-    // }
+    //Bonus Relationship
+    public function bonuses()
+    {
+        return $this->hasMany('App\Models\Bonus');
+    }
   
      //A user has a referrer.
   
@@ -81,9 +81,9 @@ class User extends Authenticatable
     //     return $this->hasMany('App\Models\BankDetail');
     // }
 
-    // //Withdrawals Relationship
-    // public function withdrawals()
-    // {
-    //     return $this->hasMany('App\Models\Withdrawal');
-    // }
+    //Withdrawals Relationship
+    public function withdrawals()
+    {
+        return $this->hasMany('App\Models\Withdrawal');
+    }
 }

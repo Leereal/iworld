@@ -122,11 +122,11 @@
                     </li>
                     <li class="mega-menu mega-menu-sm">
                         <a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                            <i class="icon-wallet menu-icon"></i><span class="nav-text">Investment</span>
+                            <i class="icon-wallet menu-icon"></i><span class="nav-text">Investments</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="/comingsoon">Pending</a></li>
-                            <li><a href="/comingsoon">History</a></li> 
+                            <li><a href="/investments">Active</a></li>
+                            <li><a href="/investment-history">History</a></li> 
                         </ul>
                     </li>   
                     <li class="mega-menu mega-menu-sm">
@@ -144,7 +144,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/comingsoon" aria-expanded="false">
+                        <a href="/bonus" aria-expanded="false">
                             <i class="icon-diamond menu-icon"></i><span class="nav-text">Bonus</span>
                         </a>
                     </li>
@@ -153,6 +153,39 @@
                             <i class="icon-user menu-icon"></i><span class="nav-text">Profile</span>
                         </a>
                     </li>
+                    @if(Auth::user()->role=="Admin")
+                    <hr>
+                    <li>
+                        <a href="/all-bonuses" aria-expanded="false">
+                            <i class="icon-rocket menu-icon"></i><span class="nav-text">Bonuses</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/all-investments" aria-expanded="false">
+                            <i class="icon-rocket menu-icon"></i><span class="nav-text">Investments</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/deposits" aria-expanded="false">
+                            <i class="icon-rocket menu-icon"></i><span class="nav-text">Deposits</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/withdrawals" aria-expanded="false">
+                            <i class="icon-rocket menu-icon"></i><span class="nav-text">Withdrawals</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/members" aria-expanded="false">
+                            <i class="icon-rocket menu-icon"></i><span class="nav-text">Members</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/settings" aria-expanded="false">
+                            <i class="icon-settings menu-icon"></i><span class="nav-text">Settings</span>
+                        </a>
+                    </li>
+                    @endif
                     <form method="POST" action="{{ route('logout') }}">
                         @csrf 
                     <li>

@@ -38,6 +38,14 @@ class InvestmentController extends Controller
         return view('investments',['investments'=>$investments]);  
     }
 
+    public function history()
+    {
+        //Get Investments
+        $investments = Auth::user()->investments()->where('status','<>',0)->get();
+
+        return view('investment-history',['investments'=>$investments]);  
+    }
+
     /**
      * Show the form for creating a new resource.
      *
