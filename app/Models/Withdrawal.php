@@ -22,4 +22,11 @@ class Withdrawal extends Model
         return $this->belongsTo('App\Models\Investment');
     }
 
+     //Bank Relationship
+     public function bank()
+     {
+         return $this->hasOne('App\Models\Bank');
+     }
+ 
+
 }

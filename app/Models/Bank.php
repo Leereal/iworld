@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Bank extends Model
 {
     use HasFactory;
+     //Investment Relationship
+     public function withdrawals()
+     {
+         return $this->hasMany('App\Models\Withdrawal');
+     }
+ 
 }

@@ -46,7 +46,7 @@ Route::get('/change-password', function () {
     return view('change-password');
 })->middleware(['auth'])->name('change-password');
 
-Route::get('/withdraw/{id?}', [WithdrawalController::class, 'show'])->middleware(['auth']);
+Route::get('/withdraw/{investment?}', [WithdrawalController::class, 'show'])->middleware(['auth']);
 
 Route::post('/changepassword', [UserController::class, 'change_password'])->middleware(['auth']);
 Route::put('/update-profile', [UserController::class, 'update'])->middleware(['auth']);
@@ -66,6 +66,8 @@ Route::post('/deposit', [DepositController::class, 'store'])->middleware(['auth'
 Route::get('/investment-history', [InvestmentController::class, 'history'])->middleware(['auth']);
 
 Route::get('/deposits', [DepositController::class, 'all'])->middleware(['auth']);
+Route::get('/pendingwithdrawals', [WithdrawalController::class, 'pending'])->middleware(['auth']);
+Route::get('/withdrawal-history', [WithdrawalController::class, 'index'])->middleware(['auth']);
 Route::get('/withdrawals', [WithdrawalController::class, 'all'])->middleware(['auth']);
 Route::get('/all-investments', [InvestmentController::class, 'all'])->middleware(['auth']);
 Route::post('/reinvest', [InvestmentController::class, 'mature_or_reinvest'])->middleware(['auth']);

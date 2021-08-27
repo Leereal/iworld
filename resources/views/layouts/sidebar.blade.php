@@ -134,8 +134,8 @@
                             <i class="icon-briefcase menu-icon"></i><span class="nav-text">Withdrawal</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="/comingsoon">Pending</a></li>
-                            <li><a href="/comingsoon">History</a></li> 
+                            <li><a href="/mywithdrawals">Pending</a></li>
+                            <li><a href="/withdrawal-history">History</a></li> 
                         </ul>
                     </li>
                     <li>

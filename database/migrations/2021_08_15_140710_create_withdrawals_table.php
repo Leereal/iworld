@@ -17,7 +17,7 @@ class CreateWithdrawalsTable extends Migration
             $table->id();
             $table->decimal('amount');
             $table->unsignedBigInteger('bank_id');
-            $table->unsignedBigInteger('account');
+            $table->string('account');
             $table->unsignedBigInteger('investment_id');
             $table->unsignedBigInteger('user_id');         
             $table->integer('status')->default(2);

@@ -73,7 +73,7 @@
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
       <h1>Welcome to <span>Pipsotrade</spa>
       </h1>
-      <h2>We are team of talented and professional traders</h2>
+      <h2>We are a team of talented and professional traders</h2>
       <div class="d-flex">
         <a href="/register" class="btn-get-started scrollto">Join Now</a>
       </div>
